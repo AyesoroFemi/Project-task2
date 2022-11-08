@@ -699,8 +699,6 @@ body {
   }
 }
 
-
-
 @media (max-width: 576px) {
   /* Mobile screen size */
   .form__grid {
@@ -771,6 +769,7 @@ body {
     font-size: 24px;
     line-height: 36px;
   }
+
   .video__text:last-child {
     margin-bottom: 650px;
   }
@@ -809,11 +808,14 @@ body {
     padding-right: 0rem;
     transform: translateY(-4rem);
   }
-  .video__text:last-child {
-    margin-bottom: 850px;
+  .video__text {
+    width: 100%;
   }
+  .video__text:last-child {
+    margin-bottom: 610px;
+  }
+
   .playbtn {
-    transform: translate(-1rem, -43rem);
+    transform: translate(-1rem, -35rem);
   }
 }
-
